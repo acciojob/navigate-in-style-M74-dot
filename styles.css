@@ -4,12 +4,14 @@
 	padding:0;
 	box-sizing: border-box;
 }
-ul{
+.container{
 	background-color:#D3D3D3;
 	padding: 10px;
 }
+ul{
+	display: flex;
+}
 ul li{
-	display: inline;
 	margin-right: 1rem;
 	list-style: none;
 }
